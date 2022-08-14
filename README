@@ -32,3 +32,13 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+patch
+------ 
+https://st.suckless.org/patches/
+从官网下载patch到本地目录
+wget xxx.pathc
+
+patch < ~/patch/t-colorschemes-0.8.5.diff
+
+如遇失败可以根据补丁文件手动添加。
+每次make前删除config.h文件
