@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono NL:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrains Mono NL:pixelsize=36:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
