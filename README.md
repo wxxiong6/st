@@ -64,6 +64,7 @@ keyboard_select|`ctrl` + `shift` +  `Esc`
 
 ## path
 ### keyboard_select
+`ctrl` + `shift` +  `Esc`
 当您运行“keyboard_select”时，您有 3 种可用模式：
  - 移动模式：设置选择的开始；
  - 选择模式：激活并设置选择的结束；
@@ -85,6 +86,5 @@ h, j, k, l:    move cursor left/down/up/right (also with arrow keys)
 使用 h,j,k,l（也可以使用箭头键），您可以使用量词。在按下相应的键之前输入一个数字。
 
 输入模式的快捷键：
-
  Return:       Return to the previous mode
 
