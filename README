@@ -27,6 +27,7 @@ the st terminfo entry with the following command:
     tic -sx st.info
 
 See the man page for additional details.
+DKEY Mod1Mas
 
 Credits
 -------
@@ -42,3 +43,21 @@ patch < ~/patch/t-colorschemes-0.8.5.diff
 
 如遇失败可以根据补丁文件手动添加。
 每次make前删除config.h文件
+
+## Keyboard
+Action      | Key Combination
+---         | ---
+Copy        | `ctrl` + `shift` + `c`
+Paste       | `ctrl` + `shift` + `v`
+selPaste    | `ctrl` + `shift` + `y`
+Zoom In     | `alt` + `shift` + `+`
+Zoom Out    | `alt` + `shift` + `-`
+Reset Zoom  | `alt` + `shift` + `0`
+Scroll up   | `shift` + `page up`
+Scroll down | `shift` + `mouse down`
+Scroll up   | `shift` + `mouse up`
+Scroll down | `shift` + `page down`
+Scroll up/down   | `F11`
+selectscheme | `alt` +  `0-9`
+selectscheme | `alt` + `ctrl` +  `0`
+keyboard_select|`ctrl` + `shift` +  `Esc`
